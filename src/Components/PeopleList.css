@@ -1,0 +1,11 @@
+.slide-fade li {
+  transition: all 0.4s ease-out;
+  opacity: 0;
+}
+.slide-fade li.show {
+  opacity: 1;
+}
+li.show {
+  height: 2em;
+  margin: 2px 0;
+}
